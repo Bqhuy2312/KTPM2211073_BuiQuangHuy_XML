@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<congty xmlns:hr="http://company.com/hr" xmlns:dep="http://company.com/department">
+
+    <dep:phongban name="Phòng Kế Toán">
+        <hr:nhanvien>
+            <hr:id>NV001</hr:id>
+            <hr:name>Nguyễn Văn A</hr:name>
+            <hr:position>Kế toán trưởng</hr:position>
+        </hr:nhanvien>
+        <hr:nhanvien>
+            <hr:id>NV002</hr:id>
+            <hr:name>Trần Thị B</hr:name>
+            <hr:position>Kế toán viên</hr:position>
+        </hr:nhanvien>
+    </dep:phongban>
+
+    <dep:phongban name="Phòng CNTT">
+        <hr:nhanvien>
+            <hr:id>NV003</hr:id>
+            <hr:name>Lê Văn C</hr:name>
+            <hr:position>Lập trình viên</hr:position>
+        </hr:nhanvien>
+    </dep:phongban>
+
+</congty>

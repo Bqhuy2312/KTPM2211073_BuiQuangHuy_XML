@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thuvien>
+    <sach>
+        <title>Chiến Tranh và Hòa Bình</title>
+        <author>Lev Tolstoy</author>
+        <year>1869</year>
+        <genre>Tiểu thuyết</genre>
+    </sach>
+
+    <sach>
+        <title>Nhà Giả Kim</title>
+        <author>Paulo Coelho</author>
+        <year>1988</year>
+        <genre>Tiểu thuyết</genre>
+    </sach>
+
+    <sach>
+        <title>Ông Già và Biển Cả</title>
+        <author>Ernest Hemingway</author>
+        <year>1952</year>
+        <genre>Tiểu thuyết</genre>
+    </sach>
+</thuvien>
