@@ -1,0 +1,20 @@
+<!ELEMENT donhangs (order:donhang*)>
+<!ATTLIST donhangs
+    xmlns:order CDATA #FIXED "http://company.com/order"
+    xmlns:prod CDATA #FIXED "http://company.com/product"
+>
+
+<!ELEMENT order:donhang (order:sanpham_list)>
+<!ATTLIST order:donhang
+    id ID #REQUIRED
+    customer CDATA #REQUIRED
+    date CDATA #REQUIRED
+>
+
+<!ELEMENT order:sanpham_list (prod:sanpham*)>
+<!ELEMENT prod:sanpham EMPTY>
+<!ATTLIST prod:sanpham
+    id ID #REQUIRED
+    quantity CDATA #REQUIRED
+    price CDATA #REQUIRED
+>

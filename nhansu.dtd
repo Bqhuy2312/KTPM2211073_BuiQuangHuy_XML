@@ -1,0 +1,16 @@
+<!ELEMENT congty (dep:phongban*)>
+<!ATTLIST congty
+    xmlns:hr CDATA #FIXED "http://company.com/hr"
+    xmlns:dep CDATA #FIXED "http://company.com/department"
+>
+
+<!ELEMENT dep:phongban (hr:nhanvien*)>
+<!ATTLIST dep:phongban
+    name CDATA #REQUIRED
+>
+
+<!ELEMENT hr:nhanvien (hr:id, hr:name, hr:position)>
+
+<!ELEMENT hr:id (#PCDATA)>
+<!ELEMENT hr:name (#PCDATA)>
+<!ELEMENT hr:position (#PCDATA)>
