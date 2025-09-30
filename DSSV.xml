@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV>
+    <KHOA>
+        <MA>K01</MA>
+        <TEN>cntt</TEN>
+    </KHOA>
+    <KHOA>
+        <MA>K02</MA>
+        <TEN>toan</TEN>
+    </KHOA>
+
+    <LOP>
+        <MA>L01</MA>
+        <TEN>cntt1</TEN>
+    </LOP>
+    <LOP>
+        <MA>L02</MA>
+        <TEN>toan1</TEN>
+    </LOP>
+
+    <SINHVIEN>
+        <MSSV>SV001</MSSV>
+        <HOTEN>Nguyễn Văn A</HOTEN>
+        <EMAIL>a@email.com</EMAIL>
+        <DIACHI>Hà Nội</DIACHI>
+        <SDT>0123456789</SDT>
+        <THUOC lop="L01" khoa="K01" />
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV002</MSSV>
+        <HOTEN>Trần Thị B</HOTEN>
+        <EMAIL>b@email.com</EMAIL>
+        <DIACHI>Hồ Chí Minh</DIACHI>
+        <SDT>0987654321</SDT>
+        <THUOC lop="L02" khoa="K02" />
+    </SINHVIEN>
+
+    <QUANLY khoa="K01" lop="L01" />
+    <QUANLY khoa="K02" lop="L02" />
+</DSSV>

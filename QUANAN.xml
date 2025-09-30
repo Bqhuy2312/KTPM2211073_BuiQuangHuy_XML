@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.example.com/quanan"
+    xsi:schemaLocation="http://www.example.com/quanan quanan.xsd">
+
+    <BAN>
+        <BAN_ITEM TENBAN="B01">
+            <SOBAN>1</SOBAN>
+        </BAN_ITEM>
+        <BAN_ITEM TENBAN="B02">
+            <SOBAN>2</SOBAN>
+        </BAN_ITEM>
+        <BAN_ITEM TENBAN="B03">
+            <SOBAN>3</SOBAN>
+        </BAN_ITEM>
+        <BAN_ITEM TENBAN="B04">
+            <SOBAN>4</SOBAN>
+        </BAN_ITEM>
+        <BAN_ITEM TENBAN="B05">
+            <SOBAN>5</SOBAN>
+        </BAN_ITEM>
+    </BAN>
+
+    <NHANVIEN>
+        <NV MANV="NV01">
+            <TENV>Nguyen Van A</TENV>
+            <SDT>0912345678</SDT>
+            <DIACHI>123 Tran Hung Dao</DIACHI>
+            <GIOITINH>Nam</GIOITINH>
+            <USERNAME>nguyenvana</USERNAME>
+            <PASSWORD>password1234</PASSWORD>
+        </NV>
+        <NV MANV="NV02">
+            <TENV>Tran Thi B</TENV>
+            <SDT>0987654321</SDT>
+            <DIACHI>456 Nguyen Trai</DIACHI>
+            <GIOITINH>Nu</GIOITINH>
+            <USERNAME>tranthib</USERNAME>
+            <PASSWORD>tranbsecure12</PASSWORD>
+        </NV>
+        <NV MANV="NV03">
+            <TENV>Le Van C</TENV>
+            <SDT>0933333333</SDT>
+            <DIACHI>789 Le Loi</DIACHI>
+            <GIOITINH>Nam</GIOITINH>
+            <USERNAME>levanc123</USERNAME>
+            <PASSWORD>lesecurepass99</PASSWORD>
+        </NV>
+        <NV MANV="NV04">
+            <TENV>Pham Thi D</TENV>
+            <SDT>0944444444</SDT>
+            <DIACHI>12 Vo Van Tan</DIACHI>
+            <GIOITINH>Nu</GIOITINH>
+            <USERNAME>phamthid</USERNAME>
+            <PASSWORD>dstrongpassword</PASSWORD>
+        </NV>
+        <NV MANV="NV05">
+            <TENV>Hoang Van E</TENV>
+            <SDT>0955555555</SDT>
+            <DIACHI>34 Cach Mang Thang 8</DIACHI>
+            <GIOITINH>Nam</GIOITINH>
+            <USERNAME>hoange123</USERNAME>
+            <PASSWORD>hoangsecurepwd</PASSWORD>
+        </NV>
+    </NHANVIEN>
+
+    <MON>
+        <MON_ITEM MAMON="M01">
+            <TENMON>Ca phe den</TENMON>
+            <GIA>25000</GIA>
+            <HINHANH>capheden.jpg</HINHANH>
+        </MON_ITEM>
+        <MON_ITEM MAMON="M02">
+            <TENMON>Ca phe sua</TENMON>
+            <GIA>30000</GIA>
+            <HINHANH>caphesua.jpg</HINHANH>
+        </MON_ITEM>
+        <MON_ITEM MAMON="M03">
+            <TENMON>Tra dao</TENMON>
+            <GIA>35000</GIA>
+            <HINHANH>tradao.jpg</HINHANH>
+        </MON_ITEM>
+        <MON_ITEM MAMON="M04">
+            <TENMON>Nuoc ep cam</TENMON>
+            <GIA>40000</GIA>
+            <HINHANH>nuocepcam.jpg</HINHANH>
+        </MON_ITEM>
+        <MON_ITEM MAMON="M05">
+            <TENMON>Banh ngot</TENMON>
+            <GIA>20000</GIA>
+            <HINHANH>banhngot.jpg</HINHANH>
+        </MON_ITEM>
+    </MON>
+
+    <HOADON>
+        <HD SOHD="HD01" TENBAN="B01" MANV="NV01">
+            <NGAYLAP>2025-09-30</NGAYLAP>
+            <TONGTIEN>55000</TONGTIEN>
+        </HD>
+        <HD SOHD="HD02" TENBAN="B02" MANV="NV02">
+            <NGAYLAP>2025-09-29</NGAYLAP>
+            <TONGTIEN>75000</TONGTIEN>
+        </HD>
+        <HD SOHD="HD03" TENBAN="B03" MANV="NV03">
+            <NGAYLAP>2025-09-28</NGAYLAP>
+            <TONGTIEN>40000</TONGTIEN>
+        </HD>
+        <HD SOHD="HD04" TENBAN="B04" MANV="NV04">
+            <NGAYLAP>2025-09-27</NGAYLAP>
+            <TONGTIEN>30000</TONGTIEN>
+        </HD>
+        <HD SOHD="HD05" TENBAN="B05" MANV="NV05">
+            <NGAYLAP>2025-09-26</NGAYLAP>
+            <TONGTIEN>60000</TONGTIEN>
+        </HD>
+    </HOADON>
+
+    <CTHD>
+        <CT SOHD="HD01" MAMON="M01">
+            <SOLUONG>1</SOLUONG>
+        </CT>
+        <CT SOHD="HD01" MAMON="M05">
+            <SOLUONG>1</SOLUONG>
+        </CT>
+        <CT SOHD="HD02" MAMON="M02">
+            <SOLUONG>2</SOLUONG>
+        </CT>
+        <CT SOHD="HD03" MAMON="M03">
+            <SOLUONG>1</SOLUONG>
+        </CT>
+        <CT SOHD="HD04" MAMON="M04">
+            <SOLUONG>1</SOLUONG>
+        </CT>
+    </CTHD>
+</QUANAN>
